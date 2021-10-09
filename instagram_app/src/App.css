@@ -1,0 +1,52 @@
+*{
+  margin:0;
+}
+
+.app_header{
+  position: sticky;
+  top:0;
+  z-index: 1;
+  object-fit: contain;
+  background-color: white;
+  padding: 20px;
+  border-bottom: 1px solid lightgray;
+  display: flex;
+  justify-content: space-between;
+   /* to make the logo look like perfect, no stretch and no broad */
+}
+
+.app_headerImage{
+  object-fit: contain;
+}
+
+
+.instagram-media{
+
+  float: right;
+}
+
+.app{
+  background-color: #fafafa;
+
+}
+
+.app_posts{
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+}
+.app_postright{
+  margin-left: 20px;
+}
+.modal-content {
+  background-color: #fefefe;
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 70%; /* Could be more or less, depending on screen size */
+}
+
+.app_signup{
+  display: flex;
+  flex-direction: column;
+}
